@@ -27,6 +27,12 @@ Portfolio-main/
 ├── supabase-config.js    # Supabase client config
 ├── supabase/
 │   └── schema.sql        # SQL to create the contact_messages table
+├── assets/
+│   ├── Vansh.jpeg        # Profile photo
+│   ├── Vansh-Resume.pdf  # Resume (linked in navbar, hero, contact, modal)
+│   ├── offer-letters/    # Offer letter documents
+│   ├── certificates/     # Internship/training certificates
+│   └── certifications/   # Learning credentials (IBM, Google, Microsoft, Deloitte, Forage)
 ├── vercel.json           # Vercel static deployment config
 ├── .gitignore
 └── README.md

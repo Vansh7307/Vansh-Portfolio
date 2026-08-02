@@ -15,7 +15,7 @@ const navItems = document.querySelectorAll(".nav-links a");
 const sections = document.querySelectorAll("main section[id]");
 
 const interactiveElements = document.querySelectorAll(
-  "a, button, .nav-profile, .project-card, .about-card, .skill-column, .education-card, .achievement-card, .youtube-card"
+  "a, button, .nav-profile, .project-card, .about-card, .skill-column, .education-card, .achievement-card, .youtube-card, .cert-card"
 );
 
 const spotlightCards = document.querySelectorAll(".spotlight-card");
@@ -199,7 +199,7 @@ window.addEventListener("keydown", (event) => {
 /* SCROLL REVEAL */
 
 const revealElements = document.querySelectorAll(
-  ".section-heading, .about-card, .skill-column, .project-card, .education-card, .achievement-card, .certification-box, .youtube-card, .contact-box"
+  ".section-heading, .about-card, .skill-column, .project-card, .education-card, .achievement-card, .certification-box, .cert-card, .youtube-card, .contact-box"
 );
 
 if ("IntersectionObserver" in window && !prefersReducedMotion) {
@@ -250,7 +250,7 @@ if (isFinePointer && !prefersReducedMotion) {
 
 if (isFinePointer && !prefersReducedMotion) {
   const tiltCards = document.querySelectorAll(
-    ".project-card, .education-card, .achievement-card, .youtube-card"
+    ".project-card, .education-card, .achievement-card, .youtube-card, .cert-card"
   );
 
   tiltCards.forEach((card) => {
