@@ -1,6 +1,12 @@
 # Vansh Portfolio
 
-A modern, animated developer portfolio built with **HTML, CSS, and JavaScript** — now deployed on **Vercel** with **Supabase** as the backend for the contact form.
+A modern, animated developer portfolio built with **HTML, CSS, and JavaScript** — deployed on **Vercel** with **Supabase** as the backend for the contact form.
+
+## 👤 About
+
+**Vansh** — Second-year B.Tech CSE student at SRM University (2024–2028), focused on software development with a data/ML lean. Builds complete, working systems end-to-end — from data pipelines and model training to deployed applications.
+
+Looking for internship or entry-level roles in software development or data/ML.
 
 ## 🚀 Stack
 
@@ -105,20 +111,27 @@ To view messages: open your Supabase dashboard → **Table Editor → contact_me
 
 ---
 
-## 🏷️ Live Demo Links (Projects)
+## 🏷️ Projects
 
-| # | Project | Demo |
+| # | Project | Repo |
 | - | ------- | ---- |
-| 1 | Movies Recommendation System | https://movies-recommendation-system.vercel.app/ |
-| 2 | Water Tracker | https://dailywater-tracker.vercel.app/ |
-| 3 | BMI Calculator | https://bodymi-calc.vercel.app/ |
-| 4 | Literary Compass | https://literary-compass-india.vercel.app/ |
-| 5 | HueLedger | https://hueledger.vercel.app/ |
-| 6 | WeekWise | https://week-wise.vercel.app/ |
-| 7 | PlantrixAI | https://plantrixai.vercel.app/ |
-| 8 | QuickSort | https://quicksortfiles.vercel.app/ |
+| 1 | KnowledgeGraph AI — Multi-Agent RAG System | https://github.com/Vansh7307/knowledgegraph-ai-multiagent-rag |
+| 2 | SmartMedic — Multi-Disease Predictive Diagnostic System | https://github.com/Vansh7307/medical-diagnosis-ml |
+| 3 | Natural Language Generator | https://github.com/Vansh7307/natural-language-generator |
+| 4 | VisionGuard — Face Detection & Tracking | https://github.com/Vansh7307/Face-Detection |
+| 5 | Full-Stack Twitter Clone | https://github.com/Vansh7307/Twitter-Clone |
+| 6 | Weather App | https://vanshweatherweb.netlify.app/ |
 
 ---
 
-© 2026 Aayush Mehta. All rights reserved.
+## 🔗 Links
+
+- **Email**: vanshaggarwaal11@gmail.com
+- **Phone**: +91 94680 14440
+- **GitHub**: [github.com/Vansh7307](https://github.com/Vansh7307)
+- **LinkedIn**: [linkedin.com/in/vanshaggarwaal](https://www.linkedin.com/in/vanshaggarwaal)
+
+---
+
+© 2026 Vansh. All rights reserved.
 
