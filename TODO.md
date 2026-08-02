@@ -17,6 +17,6 @@ Remove old deployment platforms (Streamlit, Firebase) and set up new platforms (
 - [x] 5. Add contact form styles to style.css
 - [x] 6. Create `.gitignore`
 - [x] 7. Create `README.md` (setup + deployment steps)
-- [ ] 8. git init + commit + push to `https://github.com/Vansh7307/Vansh-Portfolio.git`
+- [x] 8. git init + commit + push to `https://github.com/Vansh7307/Vansh-Portfolio.git`
 - [ ] 9. Provide Vercel + Supabase deployment instructions
 
