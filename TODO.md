@@ -18,5 +18,5 @@ Remove old deployment platforms (Streamlit, Firebase) and set up new platforms (
 - [x] 6. Create `.gitignore`
 - [x] 7. Create `README.md` (setup + deployment steps)
 - [x] 8. git init + commit + push to `https://github.com/Vansh7307/Vansh-Portfolio.git`
-- [ ] 9. Provide Vercel + Supabase deployment instructions
+- [x] 9. Provide Vercel + Supabase deployment instructions
 
