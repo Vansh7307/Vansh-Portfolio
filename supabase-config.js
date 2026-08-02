@@ -7,22 +7,22 @@
  * 1. Create a free project at https://supabase.com
  * 2. In your project dashboard go to:
  *      Project Settings → API
- * 3. Copy the "Project URL" and the "anon public" key.
- * 4. Create a `.env` file in this folder with:
+ * 3. Copy the "Project URL" and the "publishable / anon public" key.
+ * 4. Paste the values into the placeholders below.
  *
- *      VITE_SUPABASE_URL=https://YOUR-PROJECT-REF.supabase.co
- *      VITE_SUPABASE_ANON_KEY=YOUR-ANON-PUBLIC-KEY
- *
- *    (For plain static hosting without a bundler, you can instead paste
- *     the values directly into the placeholders below. Do NOT commit
- *     real keys to GitHub if the anon key is restricted — see README.)
+ *    NEVER place your SECRET (sb_secret_...) or service_role key here.
+ *    The publishable key is safe for the browser because Row Level
+ *    Security (RLS) restricts anonymous users to INSERT only.
  *
  * 5. Run the SQL in `supabase/schema.sql` once in the Supabase SQL editor.
  * ────────────────────────────────────────────────────────────────────────
  */
 
-const SUPABASE_URL = window.SUPABASE_URL || "YOUR_SUPABASE_URL";
-const SUPABASE_ANON_KEY = window.SUPABASE_ANON_KEY || "YOUR_SUPABASE_ANON_KEY";
+const SUPABASE_URL =
+  window.SUPABASE_URL || "https://podpvbdktpkroklgunwb.supabase.co";
+const SUPABASE_ANON_KEY =
+  window.SUPABASE_ANON_KEY ||
+  "sb_publishable_WM1gvvuz4MVTBzXPXHW75g_pV-PGEDn";
 
 /**
  * A tiny, dependency-free Supabase client.
@@ -52,7 +52,7 @@ const supabaseClient = {
   async insert(table, payload) {
     if (!this.initialized) {
       console.warn(
-        "[Supabase] Not configured. Add your URL and anon key in supabase-config.js"
+        "[Supabase] Not configured. Add your URL and publishable key in supabase-config.js"
       );
       return { data: null, error: { message: "Supabase is not configured." } };
     }
